@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.pringsewufutsal.pringsewufutsalreservasi.EditTransaksi">
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan perubahan"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/editTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="30dp"
+        android:text="Edit transaksi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/editTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView1"
+        android:layout_alignStart="@+id/editTextView1"
+        android:layout_below="@+id/editTextView1"
+        android:layout_marginTop="30dp"
+        android:text="Nomor pemesanan" />
+
+    <TextView
+        android:id="@+id/editTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView2"
+        android:layout_alignStart="@+id/editTextView2"
+        android:layout_below="@+id/editTextView2"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
+
+    <TextView
+        android:id="@+id/editTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView3"
+        android:layout_alignStart="@+id/editTextView3"
+        android:layout_below="@+id/editTextView3"
+        android:layout_marginTop="16dp"
+        android:text="Tanggal transaksi" />
+
+    <TextView
+        android:id="@+id/editTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText1"
+        android:layout_alignStart="@+id/editEditText1"
+        android:layout_below="@+id/editEditText1"
+        android:text="Nama pemesan" />
+
+    <TextView
+        android:id="@+id/editTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText2"
+        android:layout_alignStart="@+id/editEditText2"
+        android:layout_below="@+id/editEditText2"
+        android:text="Nomor HP" />
+
+    <TextView
+        android:id="@+id/editTextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText3"
+        android:layout_alignStart="@+id/editEditText3"
+        android:layout_below="@+id/editEditText3"
+        android:text="Tanggal dipesan" />
+
+    <TextView
+        android:id="@+id/editTextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEditText3"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2"
+        android:text="Lapangan" />
+
+    <TextView
+        android:id="@+id/editTextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText4"
+        android:layout_alignStart="@+id/editEditText4"
+        android:layout_below="@+id/editEditText4"
+        android:text="Waktu mulai" />
+
+    <TextView
+        android:id="@+id/editTextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText5"
+        android:layout_alignStart="@+id/editEditText5"
+        android:layout_below="@+id/editEditText5"
+        android:text="Waktu selesai" />
+
+    <TextView
+        android:id="@+id/editTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText6"
+        android:layout_alignStart="@+id/editEditText6"
+        android:layout_below="@+id/editEditText6"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/editTextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editEditText7"
+        android:layout_alignStart="@+id/editEditText7"
+        android:layout_below="@+id/editEditText7"
+        android:text="Keterangan" />
+
+    <EditText
+        android:id="@+id/editEditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextView4"
+        android:layout_alignLeft="@+id/editTextView4"
+        android:layout_alignRight="@+id/editTextView4"
+        android:layout_alignStart="@+id/editTextView4"
+        android:layout_below="@+id/editTextView4"
+        android:ems="10"
+        android:hint="11-11-1111"
+        android:inputType="date|number" />
+
+    <EditText
+        android:id="@+id/editEditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView5"
+        android:layout_alignStart="@+id/editTextView5"
+        android:layout_below="@+id/editTextView5"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView6"
+        android:layout_alignStart="@+id/editTextView6"
+        android:layout_below="@+id/editTextView6"
+        android:ems="10"
+        android:hint="0812xxxxxxxx"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editEditText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView7"
+        android:layout_alignStart="@+id/editTextView7"
+        android:layout_below="@+id/editTextView7"
+        android:ems="10"
+        android:hint="11-11-1111"
+        android:inputType="date"
+        android:layout_alignRight="@+id/editEditText1"
+        android:layout_alignEnd="@+id/editEditText1" />
+
+    <EditText
+        android:id="@+id/editEditText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView8"
+        android:layout_alignStart="@+id/editTextView8"
+        android:layout_below="@+id/editTextView8"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="Lapangan 1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editEditText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editEditText4"
+        android:layout_alignLeft="@+id/editTextView9"
+        android:layout_alignRight="@+id/editEditText4"
+        android:layout_alignStart="@+id/editTextView9"
+        android:layout_below="@+id/editTextView9"
+        android:ems="10"
+        android:hint="12.00"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editEditText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView10"
+        android:layout_alignStart="@+id/editTextView10"
+        android:layout_below="@+id/editTextView10"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="12.00"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editEditText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView11"
+        android:layout_alignStart="@+id/editTextView11"
+        android:layout_below="@+id/editTextView11"
+        android:ems="10"
+        android:hint="100.000"
+        android:inputType="numberDecimal"
+        android:layout_alignRight="@+id/editEditText6"
+        android:layout_alignEnd="@+id/editEditText6" />
+
+    <EditText
+        android:id="@+id/editEditText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextView12"
+        android:layout_alignStart="@+id/editTextView12"
+        android:layout_below="@+id/editTextView12"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="Lunas/DP"
+        android:inputType="text" />
+
+
+</RelativeLayout>
