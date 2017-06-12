@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

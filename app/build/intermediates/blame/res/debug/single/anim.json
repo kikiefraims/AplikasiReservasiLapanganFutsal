@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/kiki/Android/PringsewuFutsalReservasi/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/root/.android/build-cache/32271fece04138a40c51a072d0a5de69bfff3b8c/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    }
+]

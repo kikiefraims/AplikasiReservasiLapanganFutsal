@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.pringsewufutsal.pringsewufutsalreservasi.TambahTransaksi">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tambahTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="30dp"
+        android:text="Tambah transaksi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tambahTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Tanggal transaksi"
+        android:layout_below="@+id/tambahTextView1"
+        android:layout_alignLeft="@+id/tambahTextView1"
+        android:layout_alignStart="@+id/tambahTextView1" />
+
+    <TextView
+        android:id="@+id/tambahTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText1"
+        android:layout_alignStart="@+id/tambahEditText1"
+        android:layout_below="@+id/tambahEditText1"
+        android:text="Nama pemesan" />
+
+    <TextView
+        android:id="@+id/tambahTextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText2"
+        android:layout_alignStart="@+id/tambahEditText2"
+        android:layout_below="@+id/tambahEditText2"
+        android:text="Nomor HP" />
+
+    <TextView
+        android:id="@+id/tambahTextView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText3"
+        android:layout_alignStart="@+id/tambahEditText3"
+        android:layout_below="@+id/tambahEditText3"
+        android:text="Tanggal dipesan" />
+
+    <TextView
+        android:id="@+id/tambahTextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tambahEditText3"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2"
+        android:text="Lapangan" />
+
+    <TextView
+        android:id="@+id/tambahTextView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText4"
+        android:layout_alignStart="@+id/tambahEditText4"
+        android:layout_below="@+id/tambahEditText4"
+        android:text="Waktu mulai" />
+
+    <TextView
+        android:id="@+id/tambahTextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText5"
+        android:layout_alignStart="@+id/tambahEditText5"
+        android:layout_below="@+id/tambahEditText5"
+        android:text="Waktu selesai" />
+
+    <TextView
+        android:id="@+id/tambahTextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText6"
+        android:layout_alignStart="@+id/tambahEditText6"
+        android:layout_below="@+id/tambahEditText6"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tambahTextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahEditText7"
+        android:layout_alignStart="@+id/tambahEditText7"
+        android:layout_below="@+id/tambahEditText7"
+        android:text="Keterangan" />
+
+    <EditText
+        android:id="@+id/tambahEditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tambahTextView4"
+        android:layout_alignLeft="@+id/tambahTextView4"
+        android:layout_alignRight="@+id/tambahTextView4"
+        android:layout_alignStart="@+id/tambahTextView4"
+        android:layout_below="@+id/tambahTextView4"
+        android:ems="10"
+        android:hint="11-11-1111"
+        android:inputType="date|number" />
+
+    <EditText
+        android:id="@+id/tambahEditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView5"
+        android:layout_alignStart="@+id/tambahTextView5"
+        android:layout_below="@+id/tambahTextView5"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tambahEditText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView6"
+        android:layout_alignStart="@+id/tambahTextView6"
+        android:layout_below="@+id/tambahTextView6"
+        android:ems="10"
+        android:hint="0812xxxxxxxx"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tambahEditText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView7"
+        android:layout_alignStart="@+id/tambahTextView7"
+        android:layout_below="@+id/tambahTextView7"
+        android:ems="10"
+        android:hint="11-11-1111"
+        android:inputType="date"
+        android:layout_alignRight="@+id/tambahEditText1"
+        android:layout_alignEnd="@+id/tambahEditText1" />
+
+    <EditText
+        android:id="@+id/tambahEditText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView8"
+        android:layout_alignStart="@+id/tambahTextView8"
+        android:layout_below="@+id/tambahTextView8"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="Lapangan 1"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/tambahEditText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tambahEditText4"
+        android:layout_alignLeft="@+id/tambahTextView9"
+        android:layout_alignRight="@+id/tambahEditText4"
+        android:layout_alignStart="@+id/tambahTextView9"
+        android:layout_below="@+id/tambahTextView9"
+        android:ems="10"
+        android:hint="12.00"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tambahEditText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView10"
+        android:layout_alignStart="@+id/tambahTextView10"
+        android:layout_below="@+id/tambahTextView10"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="12.00"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/tambahEditText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView11"
+        android:layout_alignStart="@+id/tambahTextView11"
+        android:layout_below="@+id/tambahTextView11"
+        android:ems="10"
+        android:hint="100.000"
+        android:inputType="numberDecimal"
+        android:layout_alignRight="@+id/tambahEditText6"
+        android:layout_alignEnd="@+id/tambahEditText6" />
+
+    <EditText
+        android:id="@+id/tambahEditText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tambahTextView12"
+        android:layout_alignStart="@+id/tambahTextView12"
+        android:layout_below="@+id/tambahTextView12"
+        android:layout_marginRight="60dp"
+        android:ems="10"
+        android:hint="Lunas/DP"
+        android:inputType="text" />
+
+</RelativeLayout>

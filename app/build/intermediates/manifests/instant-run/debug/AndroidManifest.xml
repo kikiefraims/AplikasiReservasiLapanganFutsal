@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.pringsewufutsal.pringsewufutsalreservasi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_intermilan"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="id.pringsewufutsal.pringsewufutsalreservasi.Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="id.pringsewufutsal.pringsewufutsalreservasi.MainActivity" />
+        <activity android:name="id.pringsewufutsal.pringsewufutsalreservasi.TambahTransaksi" />
+        <activity android:name="id.pringsewufutsal.pringsewufutsalreservasi.DetailTransaksi" />
+        <activity android:name="id.pringsewufutsal.pringsewufutsalreservasi.EditTransaksi" />
+        <activity android:name="id.pringsewufutsal.pringsewufutsalreservasi.TambahPetugas" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="id.pringsewufutsal.pringsewufutsalreservasi.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>
